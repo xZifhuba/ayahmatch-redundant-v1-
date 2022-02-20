@@ -1,1 +1,1 @@
-Website for memory game by matching verses
+Website consisting of memory game by matching verses in interacting method
