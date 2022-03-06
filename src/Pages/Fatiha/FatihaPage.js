@@ -38,7 +38,7 @@ const FatihaPage = () => {
     return (
         <div>
 
-       <button onClick={shuffleCards} className="BtnHome" style={{float: 'right', top: '-50px', right: '500px'}}>New Game</button>
+       <button onClick={shuffleCards} className="BtnHome" style={{float: 'right', top: '-90px', right: '500px'}}>New Game</button>
        <div className="card-grid"> 
        {cards.map(card => ( //mapping through the each ayah card for displaying
            <div className="card" key={card.id} /*div for card itself with the card id for randomizing*/>
