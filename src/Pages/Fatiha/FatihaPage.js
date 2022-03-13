@@ -1,6 +1,6 @@
 import { useState } from "react";
 import './../../Pages/Fatiha/FatihaPage.css';
-import cover from './../../img/cover.jpg';
+import SingleCard from "./SingleCard";
 
 const cardImages = [ //must use require due to webpack to properly locate path
     {"src": require("./../../img/Fatiha-img/1.JPG")},
@@ -38,15 +38,10 @@ const FatihaPage = () => {
     return (
         <div>
 
-       <button onClick={shuffleCards} className="BtnHome" style={{float: 'right', top: '-50px', right: '500px'}}>New Game</button>
+       <button onClick={shuffleCards} className="BtnHome" style={{float: 'right', top: '-90px', right: '500px'}}>New Game</button>
        <div className="card-grid"> 
        {cards.map(card => ( //mapping through the each ayah card for displaying
-           <div className="card" key={card.id} /*div for card itself with the card id for randomizing*/>
-               <div /*sub div for front and back of each ayah card*/>
-                   <img className="front" src={card.src} alt="card front error" /*each mapped ayah card image*/ /> 
-                   <img className="back" src={cover} alt="card back error" /*back img for each mapped card*/ />
-               </div>
-           </div>
+         <SingleCard key={card.id} card={card} /> //Key ID to map through each card
        ))}
 
        </div>
