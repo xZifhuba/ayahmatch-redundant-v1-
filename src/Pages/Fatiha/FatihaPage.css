@@ -4,4 +4,32 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 10px 70px;
+    width: 100px;
+}
+
+.mainCARD {
+    position: relative;
+    left: 810px;
+    bottom: 330px;
+    zoom: 0.9;
+}
+
+.mainCARD img {
+    display: block;
+    border: 2px solid;
+    border-radius: 10px;
+
+    width: 400px;
+    height: 200px;
+}
+
+.mainBack1 {
+    transition: all ease-in 0.2s;
+    transition-delay: 0.2s;
+}
+
+.mainBack2 {
+    width: 100px;
+    transition: all ease-in 0.2s;
+    transition-delay: 0.2s;
 }

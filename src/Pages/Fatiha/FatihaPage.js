@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import './../../Pages/Fatiha/FatihaPage.css';
 import SingleCard from "./SingleCard";
+import cover from './../../img/cover.jpg'
 
 const cardImages = [ //must use require due to webpack to properly locate path
     {"src": require("./../../img/Fatiha-img/1.JPG"), id: 1, matched: false },
@@ -78,7 +79,7 @@ const FatihaPage = () => {
         <div>
 
        <button onClick={shuffleCards} className="BtnHome" style={{float: 'right', top: '-90px', right: '500px'}}>New Game</button>
-       <div className="card-grid"> 
+       <div className="card-grid" /*div for defining the grid attributes*/ > 
        {cards.map(card => ( //mapping through the each ayah card for displaying
          <SingleCard  
          key={card.id} 
@@ -88,8 +89,13 @@ const FatihaPage = () => {
          disabled={disabled}
          /> //Key ID to map through each card
        ))}
+       </div>
+       <div className="mainCARD" /*div for displaying two zoomed in choices on a seperately*/>
+           <img className="mainBack1" src={cover} />
+           <img className="mainBack2" src={cover} />
 
        </div>
+
        </div>
       );
 }
