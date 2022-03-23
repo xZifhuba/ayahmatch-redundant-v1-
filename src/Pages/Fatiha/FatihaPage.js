@@ -75,10 +75,12 @@ const FatihaPage = () => {
        SetDisabled(false)
    }
 
+   const [mainCard, setmainCard] = useState(false) //useState for rendering the mainCard views conditionally
+
     return (
         <div>
 
-       <button onClick={shuffleCards} className="BtnHome" style={{float: 'right', top: '-90px', right: '500px'}}>New Game</button>
+       <button onClick={ () => {shuffleCards();setmainCard(true)}} className="BtnHome" style={{float: 'right', top: '-90px', right: '500px'}}>New Game</button>
        <div className="card-grid" /*div for defining the grid attributes*/ > 
        {cards.map(card => ( //mapping through the each ayah card for displaying
          <SingleCard  
@@ -90,11 +92,17 @@ const FatihaPage = () => {
          /> //Key ID to map through each card
        ))}
        </div>
+
+       {
+           mainCard ? //if it is true then main card views render otherwise they are hidden before hitting new game
+       
        <div className="mainCARD" /*div for displaying two zoomed in choices on a seperately*/>
            <img className="mainBack1" src={cover} />
            <img className="mainBack2" src={cover} />
 
        </div>
+       :null
+       }
 
        </div>
       );
