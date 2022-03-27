@@ -9,7 +9,7 @@
 
 .mainCARD {
     position: relative;
-    left: 810px;
+    left: 840px;
     bottom: 330px;
     zoom: 0.9;
 }
@@ -29,7 +29,6 @@
 }
 
 .mainBack2 {
-    width: 100px;
     transition: all ease-in 0.2s;
     transition-delay: 0.2s;
 }
