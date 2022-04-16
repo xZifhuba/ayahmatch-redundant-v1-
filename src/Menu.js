@@ -15,7 +15,9 @@ const Menu = () => {
         autoplay: true,
         autoplaySpeed: 1000,
         centerMode: true,
-        arrows: false
+        arrows: false,
+        vertical: true,
+        verticalSwiping: true,
     };
     let navigate = useNavigate();
     return (
