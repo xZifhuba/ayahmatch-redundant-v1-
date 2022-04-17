@@ -12,5 +12,7 @@
     background-size: cover;
     background-attachment: fixed;
     object-fit: fill;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
   } 
 
