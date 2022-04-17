@@ -11,7 +11,7 @@ const Menu = () => {
         infinite: true,
         speed: 700,
         slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToScroll: 4,
         autoplay: false,
         autoplaySpeed: 1000,
         centerMode: true,

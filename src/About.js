@@ -28,8 +28,6 @@ const About = () => {
              <p className='Para'></p>
              <p className='Para'></p>
              <p className='Para'></p>
-             <p className='Para'></p>
-             <p className='Para'></p>
     
              <p className='Para'>
                 إِنَّا ِلِلَّٰهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ
