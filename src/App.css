@@ -4,14 +4,13 @@
 }
 
 
-.App {
-  background-image: url('./img/AyahBG.jpg');   
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: auto;
-
-  width: 100%;
-  height: 100vh;
- 
-} 
+.App{
+    height: 100rem;
+    background: url("img/AyahBG.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: fill;
+  } 
 
