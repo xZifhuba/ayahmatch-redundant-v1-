@@ -80,7 +80,7 @@ const FatihaPage = () => {
     return (
         <div>
 
-       <button onClick={ () => {shuffleCards();setmainCard(true)}} className="BtnHome" style={{float: 'right', top: '-90px', right: '500px'}}>New Game</button>
+       <button onClick={ () => {shuffleCards();setmainCard(true)}} className="BtnHome">New Game</button>
        <div className="card-grid" /*div for defining the grid attributes*/ > 
        {cards.map(card => ( //mapping through the each ayah card for displaying
          <SingleCard  
