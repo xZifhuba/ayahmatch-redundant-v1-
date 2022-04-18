@@ -5,13 +5,14 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding: 2%;
     width: 50%;
-    grid-row: 100rem;
+    gap: 10% 10%;
 }
 
 .mainCARD {
-    position: relative;
-    left: 1140px;
-    bottom: 470px;
+    position: absolute;
+    left: 65%;
+    top: 25vh;
+
     zoom: 0.65;
 }
 
@@ -20,8 +21,8 @@
     border: 2px solid;
     border-radius: 10px;
 
-    width: 400px;
-    height: 200px;
+    width: 80%;
+    height: 10%;
 }
 
 .mainBack1 {

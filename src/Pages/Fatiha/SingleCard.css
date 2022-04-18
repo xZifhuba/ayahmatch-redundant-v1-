@@ -6,19 +6,19 @@
 .card img {
     display: block;
     border: 2px solid;
-    border-radius: 10px;
+    border-radius: 1rem;
     
 }
 
 .back {
-    width: 200px;
-    height: 100px;
+    width: 95%;
+    height: 100%;
     transition: all ease-in 0.2s;
     transition-delay: 0.2s;
 }
 
 .front {
-    height: 100px;
+    height: 100%;
     transform: rotateY(90deg);
     position: absolute;
     transition: all ease-in 0.2s;
