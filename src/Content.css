@@ -64,3 +64,11 @@ h1 {
     transform: translate(-6px, -6px);
 }
 
+.BtnHome {
+    margin: 0;
+      position: relative;
+      top: 1rem;
+      left: 40vw;
+      height: 2.5rem;
+      width: 7rem;
+    }
