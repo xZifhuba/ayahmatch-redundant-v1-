@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Content from './Content';
 import Menu from './Menu';

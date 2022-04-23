@@ -1,3 +1,4 @@
+import React from 'react'
 import cover from './../../img/cover.jpg'
 
 import './../../Pages/Fatiha/SingleCard.css'

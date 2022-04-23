@@ -1,3 +1,4 @@
+import React from 'react';
 import './Content.css';
 import { useNavigate } from 'react-router-dom';
 import Sidebar from './Sidebar';
