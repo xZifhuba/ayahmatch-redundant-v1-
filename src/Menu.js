@@ -23,17 +23,17 @@ const Menu = () => {
     return (
         <div className="Slide"> 
         <Slider {...settings}>
-            <button onClick={() => {navigate("/Fatiha")}} className="BtnMenu">Al Fatiha</button>
-            <button className="BtnMenu">Al Fil</button>
-            <button className="BtnMenu">Quraish</button>
-            <button className="BtnMenu">Al Maa'un</button>
-            <button className="BtnMenu">Al Kawthar</button>
-            <button className="BtnMenu">Al Kaafiroon</button>
-            <button className="BtnMenu">An Nasr</button>
-            <button className="BtnMenu">Al Masad</button>
-            <button className="BtnMenu">Al Ikhlaas</button>
-            <button className="BtnMenu">Al Falaq</button>
-            <button className="BtnMenu">An Naas</button>
+            <button onClick={() => {navigate("/Fatiha")}} className="BtnMenu">Al Fatiha (The Opening)</button>
+            <button className="BtnMenu">Al Fil (The Elephant)</button>
+            <button className="BtnMenu">Quraish (People of Quraish)</button>
+            <button className="BtnMenu">Al Maa'un (Almsgiving)</button> 
+            <button className="BtnMenu">Al Kawthar (Abundance)</button>
+            <button className="BtnMenu">Al Kaafiroon (The Disbelievers)</button>
+            <button className="BtnMenu">An Nasr (Divine Support)</button>
+            <button className="BtnMenu">Al Masad (The Palm Fibre)</button>
+            <button className="BtnMenu">Al Ikhlaas (Sincerity)</button>
+            <button className="BtnMenu">Al Falaq (The Dawn)</button>
+            <button className="BtnMenu">An Naas (Mankind)</button>
         </Slider>
         </div>
 
